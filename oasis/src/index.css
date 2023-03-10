@@ -8,5 +8,20 @@ body{
 
 .titleBody {
   background-color: powderblue;
+  padding: 100px 100px 100px 100px;
   
+}
+
+.leftCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.rightCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }

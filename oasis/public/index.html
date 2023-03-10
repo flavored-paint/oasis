@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-    <title>ExploreBos</title>
+    <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 40px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 100px 100px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      
+      .button1:hover {
+        background-color: black;
+        color: white;
+      }
+      
+      </style>  
   </head>
   <body>
     <div class="titleBody">
-      <h1 class="centered">ExploreBos</h1>
-      <h2 class="centered">Generate a place in Boston!</h2>
+      <h1 style="font-size: 380%" class="centered"> ExploreBOS </h1>
+      <p style="font-size:200%" class="centered">Generate a place in Boston!</ps>
     </div>
 
-    <div>
-      <button type="button">Surprise Me (Random)</button>
+    <div class = "leftCenter">
+      <button class="button button1"> <b> Surprise Me (Random) </b> </button>
     </div>
 
-    <div>
-      <button type="button">I Have Ideas (Filter)</button>
+    <div class = "rightCenter">
+      <button class="button button1"><b> I Have Ideas (Filter)</b> </button>
     </div>
     
     
   </body>
 </html>
+
