@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.css'
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
       <div>
@@ -14,7 +16,7 @@ const Home = () => {
             </p>
           </div>
           <div className="leftCenter">
-            <button className="button button1"> Surprise Me (Random) </button>
+            <button className="button button1"><Link to={{pathname: '/Random'}}>Surprise Me (Random)</Link></button>
           </div>
           <div className="rightCenter">
             <button className="button button1"> I Have Ideas (Filter) </button>

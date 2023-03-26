@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css';
 import Home from './Home';
-//import Login from './Login';
+import Random from './random';
 // import NoPage from "./pages/NoPage";
 
 
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="login" element={<Login />} /> */}
+        <Route path="random" element={<Random />} />
       </Routes>
     </BrowserRouter>
   );
