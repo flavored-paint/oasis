@@ -17,23 +17,26 @@ const Random = () => {
             </div>
             <div className="post">
                 <div className="flex-container">
-                <div>Image here</div>
-                <div>
-                    <div className="post">
-                    <div>show place name</div>
-                    <div>show place address</div>
-                    </div>
+                <div>Image here
+                <div className="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.9584261417167!2d-71.0578072516932!3d42.362204429794744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3708f5790e8d7%3A0x7af99f9db52d3cf0!2sHaymarket!5e0!3m2!1sen!2sus!4v1680454014828!5m2!1sen!2sus" 
+                width={600} height={450} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
                 </div>
                 </div>
                 <div className="flex-container">
-                <div>list of names of places nearby </div>
-                <div> more place info, like hours </div>
+                <div>Haymarket
+                <div>address: 100 Hanover St, Boston, MA 02108</div>
                 </div>
-                <div className="leftCenter">
-                <button className="button button1"> Surprise Me (Random) </button>
                 </div>
-                <div className="rightCenter">
-                <button className="button button1"> I Have Ideas (Filter) </button>
+                </div>
+                <div className="flex-container">
+                <div>nearby places:
+                    - north end
+                    - faneuil hall
+                    - city hall </div>
+                <div> hours:
+                    - Friday and Saturdays 10am-4pm </div>
                 </div>
             </div>
         </div>
